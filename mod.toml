@@ -1,0 +1,16 @@
+[manifest]
+id = "disco_chunky"
+version = "1.0.0"
+display_name = "Disco Chunky"
+description = "Replaces Chunky's Model with Disco Chunky"
+short_description = "Replaces Chunky's Model with Disco Chunky"
+authors = [ "Ballaam" ]
+game_id = "dk64"
+minimum_recomp_version = "1.0.0"
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "disco_chunky"
+func_reference_syms_file = "Dk64Syms/dump.toml"
+data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
+additional_files = ["thumb.dds"]
